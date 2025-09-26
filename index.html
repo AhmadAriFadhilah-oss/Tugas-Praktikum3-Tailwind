@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Instagram</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        /* Aturan kustom jika dibutuhkan, tapi usahakan minimal */
+        .post-card {
+            display: grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <div class="container mx-auto max-w-4xl p-4">
+
+        <header class="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-8 mb-8">
+            <div class="flex-shrink-0 mb-4 sm:mb-0">
+                <img src="assets/profile.jpg" alt="Foto Profile" class="rounded-full w-28 h-28 lg:w-32 lg:h-32 object-cover border-2 border-gray-300 shadow-md">
+            </div>
+
+            <div class="flex flex-col items-center sm:items-start text-center sm:text-left w-full sm:w-auto">
+                <h1 class="text-2xl font-semibold">ahmddariii</h1>
+                
+                <div class="flex space-x-2 mt-4 sm:mt-0 order-2 sm:order-1 w-full sm:w-auto">
+                    <button class="flex-1 sm:hidden bg-blue-500 text-white px-4 py-2 rounded-lg font-semibold">Follow</button>
+                    <button class="hidden sm:block bg-gray-200 text-gray-800 px-4 py-2 rounded-lg font-semibold">Edit Profil</button>
+                </div>
+
+                <div class="flex justify-around sm:space-x-4 mt-4 order-1 sm:order-2 w-full sm:w-auto">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-lg">12</span>
+                        <span class="text-sm text-gray-600">Postingan</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-lg">680</span>
+                        <span class="text-sm text-gray-600">Pengikut</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-lg">471</span>
+                        <span class="text-sm text-gray-600">Mengikuti</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <hr class="border-t border-gray-300 my-8">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-01.jpg" alt="Postingan 1" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">123k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">45</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-02.jpg" alt="Postingan 2" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">98k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">32</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-03.jpg" alt="Postingan 3" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">77k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">50</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-04.jpg" alt="Postingan 4" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">150k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">90</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-05.jpg" alt="Postingan 5" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">210k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">112</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-06.jpg" alt="Postingan 6" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">60k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">25</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-07.jpg" alt="Postingan 7" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">180k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">78</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-08.jpg" alt="Postingan 8" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">115k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">55</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-09.jpg" alt="Postingan 9" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">88k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">40</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-10.jpg" alt="Postingan 10" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">170k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">67</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-11.jpg" alt="Postingan 11" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">95k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">42</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-card group relative overflow-hidden rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+        <img src="assets/posts/post-12.jpg" alt="Postingan 12" class="w-full h-full object-cover aspect-square">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4 text-white">
+                <div class="flex items-center space-x-1">
+                    <span>❤️</span>
+                    <span class="font-bold">200k</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>💬</span>
+                    <span class="font-bold">88</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
